@@ -1,0 +1,19 @@
+table {
+    width: 80%;
+    margin: 10px auto;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+
+tr, td {
+    border: 1px solid gainsboro;
+}
+
+th {
+    border: 1px solid gainsboro;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: gainsboro;
+}
